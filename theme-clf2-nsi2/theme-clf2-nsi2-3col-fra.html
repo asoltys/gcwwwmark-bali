@@ -6,13 +6,13 @@
 	<link rel="schema.dc" href="http://purl.org/dc/elements/1.1/" />
 	<link rel="schema.dcterms" href="http://purl.org/dc/terms/" />
 
-	<!-- GC WEB TEMPLATE | MODELE DE PAGE WEB DU GC
+	<!-- WEB EXPERIENCE TEMPLATE (WET) | BOITE A OUTILS DE L'EXPERIENCE WEB (BOEW) 
 	TERMS AND CONDITIONS OF USE: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
 	CONDITIONS REGISSANT L'UTILISATION : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
 	-->
 
 	<!-- TITLE BEGINS | DEBUT DU TITRE -->
-	<title>Version 2.0 du mod&eacute;le de page Web du GC - 3 colonnes - Th&egrave;me g&eacute;n&eacute;ral (non-NSI)</title>
+	<title>Version 2.0 du mod&eacute;le de page Web du GC - 3 colonnes - Th&egrave;me NSI 2.0</title>
 	<!-- TITLE ENDS | FIN DU TITRE -->
 	
 	<!-- METADATA BEGINS | DEBUT DES METADONNEES -->
@@ -33,11 +33,11 @@
 	<!--[if lte IE 7]><link href="../css/base-ie7.css" rel="stylesheet" type="text/css" /><![endif]-->
 	<!--[if lte IE 6]><link href="../css/base-ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
 	<link href="../css/util.css" rel="stylesheet" type="text/css" />
-<!-- general THEME BEGINS | DEBUT DU THEME general -->
-	<link href="css/theme-general.css" rel="stylesheet" type="text/css" />
-	<!--[if lte IE 7]><link href="css/theme-general-ie7.css" rel="stylesheet" type="text/css" /><![endif]-->
-	<!--[if lte IE 6]><link href="css/theme-general-ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
-<!-- general THEME ENDS | FIN DU THEME general -->
+<!-- clf2-nsi2 THEME BEGINS | DEBUT DU THEME clf2-nsi2 -->
+	<link href="css/theme-clf2-nsi2.css" rel="stylesheet" type="text/css" />
+	<!--[if lte IE 7]><link href="css/theme-clf2-nsi2-ie7.css" rel="stylesheet" type="text/css" /><![endif]-->
+	<!--[if lte IE 6]><link href="css/theme-clf2-nsi2-ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+<!-- clf2-nsi2 THEME ENDS | FIN DU THEME clf2-nsi2 -->
 	<!-- TEMPLATE SCRIPTS/CSS END | FIN DES SCRIPTS/CSS DU MODELE DE PAGE -->
 
 	<!-- PROGRESSIVE ENHANCEMENT BEGINS | DEBUT DE L'AMELIORATION PROGRESSIVE -->
@@ -57,9 +57,9 @@
 
 	<!-- TEMPLATE PRINT CSS BEGINS | DEBUT DU CSS DU MODELE DE PAGE POUR L'IMPRESSION -->
 	<link href="../css/pf-if.css" rel="stylesheet" media="print" type="text/css" />
-<!-- general THEME BEGINS | DEBUT DU THEME general -->
-	<link href="css/pf-if-theme-general.css" rel="stylesheet" media="print" type="text/css" />
-<!-- general THEME ENDS | FIN DU THEME general -->
+<!-- clf2-nsi2 THEME BEGINS | DEBUT DU THEME clf2-nsi2 -->
+	<link href="css/pf-if-theme-clf2-nsi2.css" rel="stylesheet" media="print" type="text/css" />
+<!-- clf2-nsi2 THEME ENDS | FIN DU THEME clf2-nsi2 -->
 	<!-- TEMPLATE PRINT CSS ENDS | FIN DU CSS DU MODELE DE PAGE POUR L'IMPRESSION -->
 </head>
 <body>
@@ -79,48 +79,62 @@
 	<!-- HEADER BEGINS | DEBUT DE L'EN-TETE -->
 	<div id="cn-head"><div id="cn-head-inner">
 	<header>
-<!-- general THEME BEGINS | DEBUT DU THEME general -->
-		<ul id="cn-lang-links">
-			<li><a href="gcwebtemplate-modelewebgc-v20-theme-clf2-nsi2-3col-eng.html" lang="en" xml:lang="en" title="English - English version of the Web page">English</a></li>
-		</ul>
+<!-- clf2-nsi2 THEME BEGINS | DEBUT DU THEME clf2-nsi2 -->
+		<div id="cn-sig"><img src="images/sig-fra.gif" width="372" height="20" alt="Gouvernement du Canada" title="Gouvernement du Canada" /></div>
 		<div id="cn-wmms"><img src="images/wmms.gif" width="83" height="20" alt="Symbole du gouvernement du Canada" title="Symbole du gouvernement du Canada" /></div>
 
 		<!-- BANNER BEGINS | DEBUT DE LA BANNIERE -->
+		<div id="cn-leaf"></div>
 		<div id="cn-banner" role="banner">
-			<p id="cn-banner-text">Texte de la banni&egrave;re</p>
+			<p id="cn-banner-text">Nom de l'institution</p>
+			<p>[www.]siteprimaire-mainsite.gc.ca</p>
 		</div>
 		<!-- BANNER ENDS | FIN DE LA BANNIERE -->
 
-		<!-- BREADCRUMB BEGINS | DEBUT DE LA PISTE DE NAVIGATION -->
-		<div id="cn-bcrumb">
 		<nav>
-			<h2>Fil d'Ariane</h2>
-			<ol role="navigation">
-				<li><a rel="up up up" href="#" title="Accueil - Page principale du site Web institutionnel">Accueil</a>&nbsp;&gt;</li>
-				<li><a rel="up up" href="#">Niveau&nbsp;1</a>&nbsp;&gt;</li>
-				<li><a rel="up" href="#">Niveau&nbsp;2</a>&nbsp;&gt;</li>
-				<li>Version 2.0 du mod&eacute;le de page Web du <abbr title="Gouvernement du Canada">GC</abbr> - 3 colonnes - Th&egrave;me g&eacute;n&eacute;ral (non-<abbr title="Normalisation des sites Internet">NSI</abbr>)</li>
-			</ol>
+			<!-- COMMON MENU BAR BEGINS | DEBUT DE LA BARRE DE MENU COMMUNE -->
+			<div id="cn-cmb">
+				<h2>Barre de menu commune</h2>
+				<ul role="navigation">
+					<li id="cn-cmb1"><a href="gcwebtemplate-modelewebgc-v20-theme-clf2-nsi2-3col-eng.html" lang="en" xml:lang="en" title="English - English version of the Web page">English</a></li>
+					<li id="cn-cmb2"><a href="#" title="Accueil - Page principale du site Web institutionnel">Accueil</a></li>
+					<li id="cn-cmb3"><a href="#" title="Contactez-nous - Communiquez avec l'institution">Contactez-nous</a></li>
+					<li id="cn-cmb4"><a href="#" title="Aide - Renseignements sur la fa&ccedil;on d'utiliser le site Web institutionnel">Aide</a></li>
+					<li id="cn-cmb5"><a rel="search" href="#" title="Recherche - Recherche dans le site Web institutionnel">Recherche</a></li>
+					<li id="cn-cmb6"><a rel="external" href="http://www.canada.gc.ca/accueil.html" title="canada.gc.ca - Site Web du gouvernement du Canada">canada.gc.ca</a></li>
+				</ul>
+			</div>
+			<!-- COMMON MENU BAR ENDS | FIN DE LA BARRE DE MENU COMMUNE -->
+
+			<!-- BREADCRUMB BEGINS | DEBUT DE LA PISTE DE NAVIGATION -->
+			<div id="cn-bcrumb">
+				<h2>Fil d'Ariane</h2>
+				<ol role="navigation">
+					<li><a rel="up up up" href="#" title="Accueil - Page principale du site Web institutionnel">Accueil</a>&nbsp;&gt;</li>
+					<li><a rel="up up" href="#">Niveau&nbsp;1</a>&nbsp;&gt;</li>
+					<li><a rel="up" href="#">Niveau&nbsp;2</a>&nbsp;&gt;</li>
+					<li>Version 2.0 du mod&eacute;le de page Web du <abbr title="Gouvernement du Canada">GC</abbr> - 3 colonnes - Th&egrave;me <abbr title="Normalisation des sites Internet">NSI</abbr> 2.0</li>
+				</ol>
+			</div>
+			<!-- BREADCRUMB ENDS | FIN DE LA PISTE DE NAVIGATION -->
 		</nav>
-		</div>
-		<!-- BREADCRUMB ENDS | FIN DE LA PISTE DE NAVIGATION -->
-<!-- general THEME ENDS | FIN DU THEME general -->
+<!-- clf2-nsi2 THEME ENDS | FIN DU THEME clf2-nsi2 -->
 	</header>
 	</div></div>
 	<!-- HEADER ENDS | FIN DE L'EN-TETE -->
 
 	<div id="cn-cols">
-	<!-- MAIN CONTENT BEGINS | DEBUT DU CONTENU PRINCIPAL -->
+	<!-- MAIN CONTENT BEGINS | DEBUT DU CONTENU PRINCIPAL --> 
 	<div id="cn-centre-col-gap"></div>
 	<div id="cn-centre-col" role="main"><div id="cn-centre-col-inner">
 	<section>
 		<!-- CONTENT TITLE BEGINS | DEBUT DU TITRE DU CONTENU -->
 		<header>
-			<h1 id="cn-cont">Version 2.0 du mod&eacute;le de page Web du <abbr title="Gouvernement du Canada">GC</abbr> - 3&nbsp;colonnes - Th&egrave;me g&eacute;n&eacute;ral (non-<abbr title="Normalisation des sites Internet">NSI</abbr>) (h1)</h1>
+			<h1 id="cn-cont">Version 2.0 du mod&eacute;le de page Web du <abbr title="Gouvernement du Canada">GC</abbr> - 3&nbsp;colonnes - Th&egrave;me <abbr title="Normalisation des sites Internet">NSI</abbr> 2.0 (h1)</h1>
 		</header>
 		<!-- CONTENT TITLE ENDS | FIN DU TITRE DU CONTENU -->
 
-<!-- general THEME BEGINS | DEBUT DU THEME general -->
+<!-- clf2-nsi2 THEME BEGINS | DEBUT DU THEME clf2-nsi2 -->
 		<div class="cn-toppage"><a href="#cn-tphp" title="Retourner au haut de la page">Haut de la page</a></div>
 		<section>
 			<h2>L'en-t&ecirc;te de niveau&nbsp;2 (h2)</h2>
@@ -147,14 +161,7 @@
 				</section>
 			</section>
 		</section>
-	</section>
-	<hr />
-	<section>
-		<dl id="cn-doc-dates" role="contentinfo">
-			<dt>Date de modification&nbsp;:</dt>
-			<dd><span><time>2010-08-09</time></span></dd>
-		</dl>
-<!-- general THEME ENDS | FIN DU THEME general -->
+<!-- clf2-nsi2 THEME ENDS | FIN DU THEME clf2-nsi2 -->
 	</section>
 	</div></div>
 	<!-- MAIN CONTENT ENDS | FIN DU CONTENU PRINCIPAL --> 
@@ -166,7 +173,7 @@
 	<section>
 		<h2 id="cn-nav">Navigation principale (colonne gauche)</h2>
 		<nav>
-<!-- general THEME BEGINS | DEBUT DU THEME general -->
+<!-- clf2-nsi2 THEME BEGINS | DEBUT DU THEME clf2-nsi2 -->
 			<section>
 				<h3><label for="cn-search">Recherche</label></h3>
 				<form action="#" method="post">
@@ -197,7 +204,15 @@
 					<li><a href="#">Article&nbsp;3a</a></li>
 				</ul>
 			</section>
-<!-- general THEME ENDS | FIN DU THEME general -->
+			<section>
+				<h3 id="cn-pd-link">Divulgation proactive</h3>
+				<!-- PROACTIVE DISCLOSURE BEGINS | DEBUT DU LIEN DIVULGATION PROACTIVE -->
+				<ul id="cn-pd-ul" role="navigation">
+					<li><a href="#" title="Divulgation proactive - Pages de Divulgation proactive institutionnelle">Divulgation proactive</a></li>
+				</ul>
+				<!-- PROACTIVE DISCLOSURE ENDS | FIN DU LIEN DIVULGATION PROACTIVEE -->
+			</section>
+<!-- clf2-nsi2 THEME ENDS | FIN DU THEME clf2-nsi2 -->
 		</nav>
 	</section>
 	</div></div>
@@ -208,7 +223,7 @@
 	<div id="cn-right-col" role="complementary"><div id="cn-right-col-inner">
 	<section>
 		<h2>Navigation secondaire (colonne droite)</h2>
-<!-- general THEME BEGINS | DEBUT DU THEME general -->
+<!-- clf2-nsi2 THEME BEGINS | DEBUT DU THEME clf2-nsi2 -->
 		<article>
 			<h3>Section&nbsp;1</h3>
 			<div>
@@ -236,7 +251,7 @@
 				<p>Contenu de la section&nbsp;3</p>
 			</div>
 		</article>
-<!-- general THEME ENDS | FIN DU THEME general -->
+<!-- clf2-nsi2 THEME ENDS | FIN DU THEME clf2-nsi2 -->
 	</section>
 	</div></div>
 	<!-- SECONDARY NAVIGATION (RIGHT COLUMN) ENDS | FIN DE LA NAVIGATION SECONDAIRE (COLONNE DROITE) -->
@@ -246,24 +261,12 @@
 	<div id="cn-foot"><div id="cn-foot-inner">
 	<footer>
 		<h2>Pied de page</h2>
-<!-- general THEME BEGINS | DEBUT DU THEME general -->
-		<!-- COMMON MENU BAR BEGINS | DEBUT DE LA BARRE DE MENU COMMUNE --> 	
-		<div id="cn-cmb">
-			<h3>Barre de menu commune</h3>
-			<nav>		
-				<ul role="navigation">
-					<li id="cn-cmb1"><a href="#" title="Contactez-nous - Communiquez avec l'institution">Contactez-nous</a></li>
-					<li id="cn-cmb2"><a href="#" title="Aide - Renseignements sur la fa&ccedil;on d'utiliser le site Web institutionnel">Aide</a></li>
-					<li id="cn-cmb3"><a href="#" title="Plan de site - Plan de site du site Web institutionnel">Plan de site</a></li>
-					<li id="cn-cmb4"><a rel="external" href="http://www.canada.gc.ca/accueil.html" title="canada.gc.ca - Site Web du gouvernement du Canada">canada.gc.ca</a></li>
-				</ul>
-			</nav>
-		</div>
-		<!-- COMMON MENU BAR ENDS | FIN DE LA BARRE DE MENU COMMUNE --> 
-
+<!-- clf2-nsi2 THEME BEGINS | DEBUT DU THEME clf2-nsi2 -->
 		<div id="cn-in-pd">			
-			<h3>Avis importants et Divulgation proactive</h3>
-			<div id="cn-sig"><img src="images/sig-fra.gif" width="372" height="20" alt="Gouvernement du Canada" title="Gouvernement du Canada" /></div>
+			<dl id="cn-doc-dates" role="contentinfo">
+				<dt>Date de modification&nbsp;:</dt>
+				<dd><span><time>2010-08-09</time></span></dd>
+			</dl>
 			<div id="cn-toppage-foot"><a href="#cn-tphp" title="Retourner au haut de la page">Haut de la page</a></div>
 			<div id="cn-in-pd-links">
 				<ul>
@@ -271,7 +274,7 @@
 				</ul>
 			</div>
 		</div>
-<!-- general THEME ENDS | FIN DU THEME general -->
+<!-- clf2-nsi2 THEME ENDS | FIN DU THEME clf2-nsi2 -->
 	</footer>
 	</div></div>
 	<!-- FOOTER ENDS | FIN DU PIED DE PAGE -->
