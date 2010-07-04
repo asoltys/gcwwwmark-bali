@@ -92,7 +92,7 @@
 		<!-- BANNER ENDS | FIN DE LA BANNIERE -->
 
 		<!-- BREADCRUMB BEGINS | DEBUT DE LA PISTE DE NAVIGATION -->
-		<div id="cn-bcrumb">
+		<div id="cn-bcrumb" role="navigation">
 		<nav>
 			<h2>Fil d'Ariane</h2>
 			<ol>
@@ -165,17 +165,22 @@
 	<div id="cn-left-col"><div id="cn-left-col-inner">
 	<section>
 		<h2 id="cn-nav">Navigation principale (colonne gauche)</h2>
-		<nav>
 <!-- general THEME BEGINS | DEBUT DU THEME general -->
+		<div role="search">
 			<section>
 				<h3><label for="cn-search">Recherche</label></h3>
 				<form action="#" method="post">
 				<div id="cn-search-box">
-					<div role="search"><input id="cn-search" type="search" size="18" maxlength="40" /><input id="cn-search-submit" type="submit" value="Recherche" /></div>
+					<input id="cn-search" type="search" size="18" maxlength="40" /><input id="cn-search-submit" type="submit" value="Recherche" />
 					<a rel="search" href="#">Recherche avanc&eacute;e</a>
 				</div>
 				</form>
 			</section>
+		</div>
+<!-- general THEME ENDS | FIN DU THEME general -->
+		<div role="navigation">
+		<nav>
+<!-- general THEME BEGINS | DEBUT DU THEME general -->
 			<section>
 				<h3>Section&nbsp;1</h3>
 				<ul>
@@ -199,6 +204,7 @@
 			</section>
 <!-- general THEME ENDS | FIN DU THEME general -->
 		</nav>
+		</div>
 	</section>
 	</div></div>
 	<!-- PRIMARY NAVIGATION (LEFT COLUMN) ENDS | FIN DE LA NAVIGATION PRINCIPALE (COLONNE GAUCHE) -->
@@ -209,6 +215,7 @@
 	<section>
 		<h2>Navigation secondaire (colonne droite)</h2>
 <!-- general THEME BEGINS | DEBUT DU THEME general -->
+		<div role="navigation">
 		<nav>
 			<h3>Section&nbsp;1</h3>
 			<div>
@@ -224,6 +231,7 @@
 				</ul>	
 			</div>
 		</nav>
+		</div>
 		<article>
 			<h3>Section&nbsp;2</h3>
 			<div>
@@ -248,7 +256,7 @@
 		<h2>Pied de page</h2>
 <!-- general THEME BEGINS | DEBUT DU THEME general -->
 		<!-- COMMON MENU BAR BEGINS | DEBUT DE LA BARRE DE MENU COMMUNE --> 	
-		<div id="cn-cmb">
+		<div id="cn-cmb" role="navigation">
 			<h3>Barre de menu commune</h3>
 			<nav>		
 				<ul>
