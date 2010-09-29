@@ -8,7 +8,7 @@
 </head>
 <body>
 	<header>inc/header-theme-base-eng.inc</header>
-	<content>inc/content-theme-base-eng.inc</content>
+	<content>inc/content-2col-theme-base-eng.inc</content>
 	<leftcol>
 		<prenav/>
 		<nav/>
@@ -16,7 +16,7 @@
 	</leftcol>
 	<rightcol>
 		<prenav/>
-		<nav/>
+		<nav>inc/rightcol-nav-2col-theme-base-eng.inc</nav>
 		<postnav/>
 	</rightcol>
 	<footer>inc/footer-theme-base-eng.inc</footer>

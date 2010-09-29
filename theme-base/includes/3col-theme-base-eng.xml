@@ -8,12 +8,16 @@
 </head>
 <body>
 	<header>inc/header-theme-base-eng.inc</header>
-	<content>inc/content-theme-base-eng.inc</content>
+	<content>inc/content-3col-theme-base-eng.inc</content>
 	<leftcol>
 		<prenav/>
 		<nav>inc/leftcol-nav-3col-theme-base-eng.inc</nav>
 		<postnav/>
 	</leftcol>
-	<rightcol>inc/rightcol-prenav-theme-base-eng.inc</rightcol>
+	<rightcol>
+		<prenav/>
+		<nav>inc/rightcol-nav-3col-theme-base-eng.inc</nav>
+		<postnav/>
+	</rightcol>
 	<footer>inc/footer-theme-base-eng.inc</footer>
 </body>

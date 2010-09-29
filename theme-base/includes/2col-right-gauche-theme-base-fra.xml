@@ -7,8 +7,8 @@
 	<params />
 </head>
 <body>
-	<header>inc/header-theme-base-eng.inc</header>
-	<content>inc/content-theme-base-eng.inc</content>
+	<header>inc/header-theme-base-fra.inc</header>
+	<content>inc/content-2col-theme-base-fra.inc</content>
 	<leftcol>
 		<prenav/>
 		<nav/>
@@ -16,8 +16,8 @@
 	</leftcol>
 	<rightcol>
 		<prenav/>
-		<nav/>
+		<nav>inc/rightcol-nav-2col-theme-base-fra.inc</nav>
 		<postnav/>
 	</rightcol>
-	<footer>inc/footer-theme-base-eng.inc</footer>
+	<footer>inc/footer-theme-base-fra.inc</footer>
 </body>
