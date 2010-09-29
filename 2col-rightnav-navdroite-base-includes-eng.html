@@ -11,7 +11,7 @@
 	-->
 
 	<!-- Title begins / Début du titre -->
-	<title>2 column layout with a right column - Base theme - Web Experience Toolkit (WET)</title>
+	<title>2 column layout with navigation on the right - Base theme - Web Experience Toolkit (WET)</title>
 	<!-- Title ends / Fin du titre -->
 	
 	<!-- Favicon (optional) begins / Début du favicon (optionnel) -->
@@ -37,10 +37,7 @@
 	<!--[if IE 7]><link href="css/base-ie7.css" rel="stylesheet" type="text/css" /><![endif]-->
 	<!--[if lte IE 6]><link href="css/base-ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
 	<link href="css/util.css" rel="stylesheet" type="text/css" />
-<!-- base theme begins / Début du thème base -->
-	<link href="theme-base/css/theme-base.css" rel="stylesheet" type="text/css" />
-	<!--[if lte IE 6]><link href="theme-base/css/theme-base-ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
-<!-- base theme ends / Fin du thème base -->
+<!-- include:css-base -->
 	<!-- WET scripts/CSS end / Fin des scripts/CSS de la BOEW -->
 
 	<!-- Progressive enhancement begins / Début de l'amélioration progressive -->
@@ -60,6 +57,7 @@
 
 	<!-- WET print CSS begins / Début du CSS de la BOEW pour l'impression -->
 	<link href="css/pf-if.css" rel="stylesheet" media="print" type="text/css" />
+<!-- include:css-pfif -->
 	<!-- WET print CSS ends / Fin du CSS de la BOEW pour l'impression -->
 </head>
 <body>
@@ -79,20 +77,7 @@
 	<!-- Header begins / Début de l'en-tête -->
 	<div id="cn-head"><div id="cn-head-inner">
 	<header>
-<!-- base theme begins / Début du thème base -->
-		<h2>Header (Base)</h2>
-
-		<h3>Important default values</h3>
-		<p><strong>Note:</strong> Default values are for the base CSS and not the current theme.</p>
-		<dl>
-			<dt><code>cn-head</code>:</dt>
-			<dd>
-				<ul>
-					<li><code>background: #FFF</code></li>
-				</ul>
-			</dd>
-		</dl>
-<!-- base theme ends / Fin du thème base -->
+<!-- include:header -->
 	</header>
 	</div></div>
 	<!-- Header ends / Fin de l'en-tête -->
@@ -108,31 +93,7 @@
 		</header>
 		<!-- Content Title ends / Fin du titre du contenu -->
 
-<!-- base theme begins / Début du thème base -->
-		<p>Normally contains the main content of the page and the date the content was last modified.</p>
-
-		<section>
-			<h2>Important default values</h2>
-			<p><strong>Note:</strong> Default values are for the base CSS and not the current theme.</p>
-			<dl>
-				<dt><code>cn-centre-col-inner</code>:</dt>
-				<dd>
-					<ul>
-						<li><code>margin-right: 25%</code> (must equal the <code>cn-right-col</code> width)</li>
-						<li><code>padding: 1px 5px;</code></li>
-						<li><code>background: #FFF</code></li>
-					</ul>
-				</dd>
-				<dt><code>cn-centre-col-gap</code> (gap between the column and the footer):</dt>
-				<dd>
-					<ul>
-						<li><code>margin-right: 25%</code> (must equal the <code>cn-right-col</code> width)</li>
-						<li><code>background: #FFF</code></li>
-					</ul>
-				</dd>
-			</dl>
-		</section>
-<!-- base theme ends / Fin du thème base -->
+<!-- include:content -->
 	</section>
 	</div></div>
 	<!-- Main content ends / Fin du contenu principal --> 
@@ -143,42 +104,13 @@
 	<section>
 		<h2 id="cn-nav">Primary navigation (right column)</h2>
 		<div class="cn-right-col-default">
+<!-- include:rightcol-prenav -->
 		<div role="navigation">
 		<nav>
-<!-- base theme begins / Début du thème base -->
-			<section>
-				<h3>Primary navigation (Base)</h3>
-				<p>Normally contains a search field and navigation links</p>
-
-				<section>		
-					<h4>Important default values</h4>
-					<p><strong>Note:</strong> Default values are for the base CSS and not the current theme.</p>
-					<dl>
-					<dt><code>cn-right-col</code>:</dt>
-					<dd>
-						<ul>
-							<li><code>width: 25%</code></li>
-						</ul>
-					</dd>
-					<dt><code>cn-right-col-inner</code>:</dt>
-					<dd>
-						<ul>
-							<li><code>background: #FFF</code></li>
-						</ul>
-					</dd>
-					<dt><code>cn-right-col-gap</code> (gap between the column and the footer):</dt>
-					<dd>
-						<ul>
-							<li><code>width: 25%</code> (must equal the <code>cn-right-col</code> width)</li>
-							<li><code>background: #FFF</code></li>
-						</ul>
-					</dd>
-					</dl>
-				</section>
-			</section>
-<!-- base theme ends / Fin du thème base -->
+<!-- include:rightcol-nav -->
 		</nav>
 		</div>
+<!-- include:rightcol-postnav -->
 		</div>
 	</section>
 	</div></div>
@@ -189,19 +121,7 @@
 	<div id="cn-foot"><div id="cn-foot-inner">
 	<footer>
 		<h2>Footer</h2>
-<!-- base theme begins / Début du thème base -->
-		<h3>Footer (Base)</h3>
-		<h4>Important default values</h4>
-		<p><strong>Note:</strong> Default values are for the base CSS and not the current theme.</p>
-		<dl>
-			<dt><code>cn-foot</code>:</dt>
-			<dd>
-				<ul>
-					<li><code>background: #FFF</code></li>
-				</ul>
-			</dd>
-		</dl>
-<!-- base theme ends / Fin du thème base -->
+<!-- include:footer -->
 	</footer>
 	</div></div>
 	<!-- Footer ends / Fin du pied de page -->

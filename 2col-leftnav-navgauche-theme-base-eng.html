@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
 	<meta charset="utf-8" />
 	<link rel="schema.dc" href="http://purl.org/dc/elements/1.1/" />
@@ -11,7 +11,7 @@
 	-->
 
 	<!-- Title begins / Début du titre -->
-	<title>2 colonnes - Thème base - Boîte à outils de l'expérience Web (BOEW)</title>
+	<title>2 column layout with navigation on the left - Base theme - Web Experience Toolkit (WET)</title>
 	<!-- Title ends / Fin du titre -->
 	
 	<!-- Favicon (optional) begins / Début du favicon (optionnel) -->
@@ -19,16 +19,16 @@
 	<!-- Favicon (optional) ends / Find du favicon (optionnel) -->
 	
 	<!-- Meta-data begins / Début des métadonnées -->
-	<meta name="dcterms.description" content="French description / Description en français" />
-	<meta name="description" content="French description / Description en français" />
-	<meta name="keywords" content="French keywords / Mots-clés en français" />
-	<meta name="dcterms.creator" content="French name of the content author / Nom en français de l'auteur du contenu" />
-	<meta name="dcterms.title" content="French title / Titre en français" />
+	<meta name="dcterms.description" content="English description / Description en anglais" />
+	<meta name="description" content="English description / Description en anglais" />
+	<meta name="keywords" content="English keywords / Mots-clés en anglais" />
+	<meta name="dcterms.creator" content="English name of the content author / Nom en anglais de l'auteur du contenu" />
+	<meta name="dcterms.title" content="English title / Titre en anglais" />
 	<meta name="dcterms.issued" content="Date published (YYYY-MM-DD-W3CDTF) / Date de publication (AAAA-MM-JJ-W3CDTF)" />
 	<meta name="dcterms.modified" content="Date modified (YYYY-MM-DD-W3CDTF) / Date de modification (AAAA-MM-JJ-W3CDTF)" />
-	<meta name="dcterms.subject" content="French subject terms / Termes de sujet en français;-scheme" />
-	<meta name="dcterms.language" content="fra-ISO639-2" />
-	<meta name="dc.language" content="fra" />
+	<meta name="dcterms.subject" content="English subject terms / Termes de sujet en anglais;-scheme" />
+	<meta name="dcterms.language" content="eng-ISO639-2" />
+	<meta name="dc.language" content="eng" />
 	<!-- Meta-data ends / Fin des métadonnées -->
 
 	<!-- WET scripts/CSS begin / Début des scripts/CSS de la BOEW --><!--[if IE 6]><![endif]-->
@@ -69,8 +69,8 @@
 	<div id="cn-skip-head">
 	<nav>
 		<ul id="cn-tphp">
-			<li id="cn-sh-link-1"><a href="#cn-cont">Passer au contenu principal</a></li>
-			<li id="cn-sh-link-2"><a href="#cn-nav">Passer à la navigation principale</a></li>
+			<li id="cn-sh-link-1"><a href="#cn-cont">Skip to main content</a></li>
+			<li id="cn-sh-link-2"><a href="#cn-nav">Skip to primary navigation</a></li>
 		</ul>
 	</nav>
 	</div>
@@ -80,12 +80,12 @@
 	<div id="cn-head"><div id="cn-head-inner">
 	<header>
 <!-- base theme begins / Début du thème base -->
-		<h2>En-tête (base)</h2>
+		<h2>Header (Base)</h2>
 
-		<h3>Valeurs implicites importantes</h3>
-		<p><strong>Nota&#160;:</strong> Les valeurs implicites sont pour le CSS base et pas pour le thème actuel.</p>
-		<dl lang="en" xml:lang="en">
-			<dt><code>cn-head</code>&#160;:</dt>
+		<h3>Important default values</h3>
+		<p><strong>Note:</strong> Default values are for the base CSS and not the current theme.</p>
+		<dl>
+			<dt><code>cn-head</code>:</dt>
 			<dd>
 				<ul>
 					<li><code>background: #FFF</code></li>
@@ -104,27 +104,26 @@
 	<section>
 		<!-- Content title begins / Début du titre du contenu -->
 		<header>
-			<h1 id="cn-cont">Zone de contenu principale (base)</h1>
+			<h1 id="cn-cont">Main content area (Base)</h1>
 		</header>
 		<!-- Content Title ends / Fin du titre du contenu -->
 
 <!-- base theme begins / Début du thème base -->
-		<p>Contient normalement le contenu principal de la page et la date de la dernière modification.</p>
+		<p>Normally contains the main content of the page and the date the content was last modified.</p>
 
 		<section>
-			<h2>Valeurs implicites importantes</h2>
-			<p><strong>Nota&#160;:</strong> Les valeurs implicites sont pour le CSS base et pas pour le thème actuel.</p>
-			<dl lang="en" xml:lang="en">
-				<dt><code>cn-centre-col-inner</code>&#160;:</dt>
+			<h2>Important default values</h2>
+			<p><strong>Note:</strong> Default values are for the base CSS and not the current theme.</p>
+			<dl>
+				<dt><code>cn-centre-col-inner</code>:</dt>
 				<dd>
 					<ul>
-						<li><code>margin-right: 0</code></li>
 						<li><code>margin-left: 25%</code> (must equal the <code>cn-left-col</code> width)</li>
 						<li><code>padding: 1px 5px;</code></li>
 						<li><code>background: #FFF</code></li>
 					</ul>
 				</dd>
-				<dt><code>cn-centre-col-gap</code> (l'écart entre la colonne et le pied de page)&#160;:</dt>
+				<dt><code>cn-centre-col-gap</code> (gap between the column and the footer):</dt>
 				<dd>
 					<ul>
 						<li><code>margin-left: 25%</code> (must equal the <code>cn-left-col</code> width)</li>
@@ -142,36 +141,36 @@
 	<div id="cn-left-col-gap"></div>
 	<div id="cn-left-col"><div id="cn-left-col-inner">
 	<section>
-		<h2 id="cn-nav">Navigation principale (colonne gauche)</h2>
+		<h2 id="cn-nav">Primary navigation (left column)</h2>
 		<div class="cn-left-col-default">
 		<div role="navigation">
 		<nav>
 <!-- base theme begins / Début du thème base -->
 			<section>
-				<h3>Navigation principale (base)</h3>
-				<p>Contient normalement un champ de recherche et les liens de navigation</p>
+				<h3>Primary navigation (Base)</h3>
+				<p>Normally contains a search field and navigation links</p>
 
 				<section>		
-					<h4>Valeurs implicites importantes</h4>
-					<p><strong>Nota&#160;:</strong> Les valeurs implicites sont pour le CSS base et pas pour le thème actuel.</p>
-					<dl lang="en" xml:lang="en">
-					<dt><code>cn-left-col</code>&#160;:</dt>
+					<h4>Important default values</h4>
+					<p><strong>Note:</strong> Default values are for the base CSS and not the current theme.</p>
+					<dl>
+					<dt><code>cn-left-col</code>:</dt>
 					<dd>
 						<ul>
 							<li><code>width: 25%</code></li>
-							<li><code>margin-right: -25%</code> (<span lang="fr" xml:lang="fr">doit égaler le négatif de la largeur</span> <code>cn-left-col</code>)</li>
+							<li><code>margin-right: -25%</code> (must equal the negative of the <code>cn-left-col</code> width)</li>
 						</ul>
 					</dd>
-					<dt><code>cn-left-col-inner</code>&#160;:</dt>
+					<dt><code>cn-left-col-inner</code>:</dt>
 					<dd>
 						<ul>
 							<li><code>background: #FFF</code></li>
 						</ul>
 					</dd>
-					<dt><code>cn-left-col-gap</code> (l'écart entre la colonne et le pied de page)&#160;:</dt>
+					<dt><code>cn-left-col-gap</code> (gap between the column and the footer):</dt>
 					<dd> 
 						<ul>
-							<li><code>width: 25%</code> (<span lang="fr" xml:lang="fr">doit égaler la largeur</span> <code>cn-left-col</code>)</li>
+							<li><code>width: 25%</code> (must equal the <code>cn-left-col</code> width)</li>
 							<li><code>background: #FFF</code></li>
 						</ul>
 					</dd>
@@ -190,13 +189,13 @@
 	<!-- Footer begins / Début du pied de page --> 
 	<div id="cn-foot"><div id="cn-foot-inner">
 	<footer>
-		<h2>Pied de page</h2>
+		<h2>Footer</h2>
 <!-- base theme begins / Début du thème base -->
-		<h3>Pied de page (base)</h3>
-		<h4>Valeurs implicites importantes</h4>
-		<p><strong>Nota&#160;:</strong> Les valeurs implicites sont pour le CSS base et pas pour le thème actuel.</p>
-		<dl lang="en" xml:lang="en">
-			<dt><code>cn-foot</code>&#160;:</dt>
+		<h3>Footer (Base)</h3>
+		<h4>Important default values</h4>
+		<p><strong>Note:</strong> Default values are for the base CSS and not the current theme.</p>
+		<dl>
+			<dt><code>cn-foot</code>:</dt>
 			<dd>
 				<ul>
 					<li><code>background: #FFF</code></li>
