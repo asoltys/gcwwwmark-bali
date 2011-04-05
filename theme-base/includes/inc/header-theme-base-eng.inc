@@ -1,4 +1,5 @@
 <!-- base theme begins / Début du thème base -->
+		<section>
 		<h2>Header (Base)</h2>
 
 		<h3>Important default values</h3>
@@ -11,4 +12,5 @@
 				</ul>
 			</dd>
 		</dl>
+		</section>
 <!-- base theme ends / Fin du thème base -->

@@ -10,7 +10,7 @@
 	-->
 
 	<!-- Title begins / Début du titre -->
-	<title>1 colonne - Thème base - HTML5 - Boîte à outils de l'expérience Web (BOEW)</title>
+	<title>1 colonne - Thème base - HTML5 - Boîte à outils de l'expérience Web (BOEW) / 1 column layout - Base theme - HTML5 - Web Experience Toolkit (WET)</title>
 	<!-- Title ends / Fin du titre -->
 	
 	<!-- Favicon (optional) begins / Début du favicon (optionnel) -->
@@ -19,14 +19,21 @@
 	
 	<!-- Meta-data begins / Début des métadonnées -->
 	<meta name="dcterms.description" content="French description / Description en français" />
+	<meta name="dcterms.description" lang="en" content="English description / Description en anglais" />
 	<meta name="description" content="French description / Description en français" />
+	<meta name="description" lang="en" content="English description / Description en anglais" />
 	<meta name="keywords" content="French keywords / Mots-clés en français" />
+	<meta name="keywords" lang="en" content="English keywords / Mots-clés en anglais" />
 	<meta name="dcterms.creator" content="French name of the content author / Nom en français de l'auteur du contenu" />
+	<meta name="dcterms.creator" lang="en" content="English name of the content author / Nom en anglais de l'auteur du contenu" />
 	<meta name="dcterms.title" content="French title / Titre en français" />
+	<meta name="dcterms.title" lang="en" content="English title / Titre en anglais" />
 	<meta name="dcterms.issued" title="W3CDTF" content="Date published (YYYY-MM-DD) / Date de publication (AAAA-MM-JJ)" />
 	<meta name="dcterms.modified" title="W3CDTF" content="Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)" />
 	<meta name="dcterms.subject" title="scheme" content="French subject terms / Termes de sujet en français" />
+	<meta name="dcterms.subject" lang="en" title="scheme" content="English subject terms / Termes de sujet en anglais" />
 	<meta name="dcterms.language" title="ISO639-2" content="fra" />
+	<meta name="dcterms.language" lang="en" title="ISO639-2" content="eng" />
 	<!-- Meta-data ends / Fin des métadonnées -->
 
 	<!-- WET scripts/CSS begin / Début des scripts/CSS de la BOEW --><!--[if IE 6]><![endif]-->
@@ -35,7 +42,10 @@
 	<!--[if IE 7]><link href="css/base-ie7.css" rel="stylesheet" type="text/css" /><![endif]-->
 	<!--[if lte IE 6]><link href="css/base-ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
 	<link href="css/util.css" rel="stylesheet" type="text/css" />
-<!-- include:css-base -->
+<!-- base theme begins / Début du thème base -->
+	<link href="theme-base/css/theme-base.css" rel="stylesheet" type="text/css" />
+	<!--[if lte IE 6]><link href="theme-base/css/theme-base-ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+<!-- base theme ends / Fin du thème base -->
 	<!-- WET scripts/CSS end / Fin des scripts/CSS de la BOEW -->
 
 	<!-- Progressive enhancement begins / Début de l'amélioration progressive -->
@@ -55,7 +65,6 @@
 
 	<!-- WET print CSS begins / Début du CSS de la BOEW pour l'impression -->
 	<link href="css/pf-if.css" rel="stylesheet" media="print" type="text/css" />
-<!-- include:css-pfif -->
 	<!-- WET print CSS ends / Fin du CSS de la BOEW pour l'impression -->
 </head>
 <body>
@@ -64,8 +73,8 @@
 	<!-- Skip header begins / Début du saut de l'en-tête -->
 	<div id="cn-skip-head">
 		<ul id="cn-tphp">
-			<li id="cn-sh-link-1"><a href="#cn-cont">Passer au contenu principal</a></li>
-			<li id="cn-sh-link-2"><a href="#cn-nav">Passer au pied de page</a></li>
+			<li id="cn-sh-link-1"><a href="#cn-cont">Passer au contenu principal / <span lang="en">Skip to main content</span></a></li>
+			<li id="cn-sh-link-2"><a href="#cn-nav">Passer au pied de page / <span lang="en">Skip to footer</span></a></li>
 		</ul>
 	</div>
 	<!-- Skip header ends / Fin du saut de l'en-tête -->
@@ -73,7 +82,23 @@
 	<!-- Header begins / Début de l'en-tête -->
 	<div id="cn-head"><div id="cn-head-inner">
 	<header>
-<!-- include:header -->
+<!-- base theme begins / Début du thème base -->
+		<section>
+		<h2>En-tête (base) / <span lang="en">Header (Base)</span></h2>
+
+		<h3>Valeurs implicites importantes / <span lang="en">Important default values</span></h3>
+		<p><strong>Nota&#160;:</strong> Les valeurs implicites sont pour le CSS base et pas pour le thème actuel.</p>
+		<p lang="en"><strong>Note:</strong> Default values are for the base CSS and not the current theme.</p>
+		<dl lang="en" xml:lang="en">
+			<dt><code>cn-head</code>&#160;:</dt>
+			<dd>
+				<ul>
+					<li><code>background: #FFF</code></li>
+				</ul>
+			</dd>
+		</dl>
+		</section>
+<!-- base theme ends / Fin du thème base -->
 	</header>
 	</div></div>
 	<!-- Header ends / Fin de l'en-tête -->
@@ -82,10 +107,27 @@
 	<!-- Main content begins / Début du contenu principal --> 
 	<div id="cn-centre-col" role="main"><div id="cn-centre-col-inner">
 		<!-- Content title begins / Début du titre du contenu -->
-		<h1 id="cn-cont">Zone de contenu principale (base)</h1>
+		<h1 id="cn-cont">Zone de contenu principale (base) / <span lang="en">Main content area (Base)</span></h1>
 		<!-- Content Title ends / Fin du titre du contenu -->
 
-<!-- include:content -->
+<!-- base theme begins / Début du thème base -->
+		<p>Contient normalement le contenu principal de la page et la date de la dernière modification.</p>
+		<p lang="en">Normally contains the main content of the page and the date the content was last modified.</p>
+		<section>
+			<h2>Valeurs implicites importantes / <span lang="en">Important default values</span></h2>
+			<p><strong>Nota&#160;:</strong> Les valeurs implicites sont pour le CSS base et pas pour le thème actuel.</p>
+			<p lang="en"><strong>Note:</strong> Default values are for the base CSS and not the current theme.</p>
+			<dl lang="en" xml:lang="en">
+				<dt><code>cn-centre-col-inner</code>&#160;:</dt>
+				<dd>
+					<ul>
+						<li><code>padding: 1px 5px;</code></li>
+						<li><code>background: #FFF</code></li>
+					</ul>
+				</dd>
+			</dl>
+		</section>
+<!-- base theme ends / Fin du thème base -->
 	</div></div>
 	<!-- Main content ends / Fin du contenu principal --> 
 	</div>
@@ -93,8 +135,21 @@
 	<!-- Footer begins / Début du pied de page --> 
 	<div id="cn-foot"><div id="cn-foot-inner">
 	<footer>
-		<h2 id="cn-nav">Pied de page</h2>
-<!-- include:footer -->
+		<h2 id="cn-nav">Pied de page / <span lang="en">Footer</span></h2>
+<!-- base theme begins / Début du thème base -->
+		<h3>Pied de page (base) / <span lang="en">Footer (Base)</span></h3>
+		<h4>Valeurs implicites importantes / <span lang="en">Important default values</span></h4>
+		<p><strong>Nota&#160;:</strong> Les valeurs implicites sont pour le CSS base et pas pour le thème actuel.</p>
+		<p lang="en"><strong>Note:</strong> Default values are for the base CSS and not the current theme.</p>
+		<dl lang="en" xml:lang="en">
+			<dt><code>cn-foot</code>&#160;:</dt>
+			<dd>
+				<ul>
+					<li><code>background: #FFF</code></li>
+				</ul>
+			</dd>
+		</dl>
+<!-- base theme ends / Fin du thème base -->
 	</footer>
 	</div></div>
 	<!-- Footer ends / Fin du pied de page -->
