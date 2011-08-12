@@ -4,14 +4,14 @@
 	<meta charset="utf-8" />
 
 	<!-- 
-	HTML5 core markup structure v1.3a2 / Support de balisage principal pour HTML5 v1.3a2
+	HTML5 core markup v1.3a2 / Support de balisage principal pour HTML5 v1.3a2
 	Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
 	Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
 	Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
 	-->
 
 	<!-- Title begins / Début du titre -->
-	<title>3 column layout - Base theme - HTML5 - Web Experience Toolkit (WET)</title>
+	<title>2 column layout with navigation on the left - Simple - HTML5 - Web Experience Toolkit (WET)</title>
 	<!-- Title ends / Fin du titre -->
 	
 	<!-- Favicon (optional) begins / Début du favicon (optionnel) -->
@@ -31,17 +31,18 @@
 	<!-- Meta-data ends / Fin des métadonnées -->
 
 	<!-- WET scripts/CSS begin / Début des scripts/CSS de la BOEW --><!--[if IE 6]><![endif]-->
-	<link href="../../css/base.css" rel="stylesheet" type="text/css" />
-	<!--[if IE 8]><link href="../../css/base-ie8.css" rel="stylesheet" type="text/css" /><![endif]-->
-	<!--[if IE 7]><link href="../../css/base-ie7.css" rel="stylesheet" type="text/css" /><![endif]-->
-	<!--[if lte IE 6]><link href="../../css/base-ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
-	<link href="../../css/util.css" rel="stylesheet" type="text/css" />
-<!-- include:css-base -->
+	<link href="css/base-simple.css" rel="stylesheet" type="text/css" />
+	<!--[if IE 8]><link href="css/base-simple-ie8.css" rel="stylesheet" type="text/css" /><![endif]-->
+	<!--[if IE 7]><link href="css/base-simple-ie7.css" rel="stylesheet" type="text/css" /><![endif]-->
+	<!--[if lte IE 6]><link href="css/base-simple-ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+	<link href="css/util.css" rel="stylesheet" type="text/css" />
+<!-- Theme begins / Début du thème -->
+<!-- Theme ends / Fin du thème -->
 	<!-- WET scripts/CSS end / Fin des scripts/CSS de la BOEW -->
 
 	<!-- Progressive enhancement begins / Début de l'amélioration progressive -->
-	<script src="../../js/lib/jquery.min.js"></script>
-	<script src="../../js/pe-ap.js" id="progressive"></script>
+	<script src="js/lib/jquery.min.js"></script>
+	<script src="js/pe-ap.js" id="progressive"></script>
 	<script>
 	/* <![CDATA[ */
 		var params = {
@@ -55,13 +56,14 @@
 	<!-- Custom scripts/CSS end / Fin des scripts/CSS personnalisés -->
 
 	<!-- WET print CSS begins / Début du CSS de la BOEW pour l'impression -->
-	<link href="../../css/pf-if.css" rel="stylesheet" media="print" type="text/css" />
-<!-- include:css-pfif -->
+	<link href="css/pf-if.css" rel="stylesheet" media="print" type="text/css" />
+<!-- Theme begins / Début du thème -->
+<!-- Theme ends / Fin du thème -->
 	<!-- WET print CSS ends / Fin du CSS de la BOEW pour l'impression -->
 </head>
 <body>
-<!-- Three column layout begins / Début de la mise en page de trois colonnes -->
-<div id="cn-body-inner-3col">
+<!-- Two column layout begins / Début de la mise en page de deux colonnes -->
+<div id="cn-body-inner-2col">
 	<!-- Skip header begins / Début du saut de l'en-tête -->
 	<div id="cn-skip-head">
 		<ul id="cn-tphp">
@@ -74,7 +76,11 @@
 	<!-- Header begins / Début de l'en-tête -->
 	<div id="cn-head"><div id="cn-head-inner">
 	<header>
-<!-- include:header -->
+<!-- Theme begins / Début du thème -->
+		<section>
+		<h2>Header (Simple)</h2>
+		</section>
+<!-- Theme ends / Fin du thème -->
 	</header>
 	</div></div>
 	<!-- Header ends / Fin de l'en-tête -->
@@ -84,10 +90,12 @@
 	<div id="cn-centre-col-gap"></div>
 	<div id="cn-centre-col" role="main"><div id="cn-centre-col-inner">
 		<!-- Content title begins / Début du titre du contenu -->
-		<h1 id="cn-cont">Main content area (Base)</h1>
+		<h1 id="cn-cont">Main content area (Simple)</h1>
 		<!-- Content Title ends / Fin du titre du contenu -->
 
-<!-- include:content -->
+<!-- Theme begins / Début du thème -->
+		<p>Normally contains the main content of the page and the date the content was last modified.</p>
+<!-- Theme ends / Fin du thème -->
 	</div></div>
 	<!-- Main content ends / Fin du contenu principal --> 
 
@@ -97,38 +105,29 @@
 	<nav role="navigation">
 		<h2 id="cn-nav">Primary navigation (left column)</h2>
 		<div class="cn-left-col-default">
-<!-- include:leftcol-prenav -->
-<!-- include:leftcol-nav -->
-<!-- include:leftcol-postnav -->
+<!-- Theme begins / Début du thème -->
+			<section>
+				<h3>Primary navigation (Simple)</h3>
+				<p>Normally contains a search field and navigation links</p>
+			</section>
+<!-- Theme ends / Fin du thème -->
 		</div>
 	</nav>
 	</div></div>
 	<!-- Primary navigation (left column) ends / Fin de la navigation principale (colonne gauche) -->
-
-	<!-- Supplemental content (right column) begins / Début du contenu supplémentaire (colonne droite) -->
-	<div id="cn-right-col-gap"></div>
-	<div id="cn-right-col" role="complementary"><div id="cn-right-col-inner">
-	<section>
-		<h2>Supplemental content (right column)</h2>
-		<div class="cn-right-col-default">
-<!-- include:rightcol-prenav -->
-<!-- include:rightcol-nav -->
-<!-- include:rightcol-postnav -->
-		</div>
-	</section>
-	</div></div>
-	<!-- Supplemental content (right column) ends / Fin du contenu supplémentaire (colonne droite) -->
 	</div>
 
 	<!-- Footer begins / Début du pied de page --> 
 	<div id="cn-foot"><div id="cn-foot-inner">
 	<footer>
 		<h2>Footer</h2>
-<!-- include:footer -->
+<!-- Theme begins / Début du thème -->
+		<h3>Footer (Simple)</h3>
+<!-- Theme ends / Fin du thème -->
 	</footer>
 	</div></div>
 	<!-- Footer ends / Fin du pied de page -->
 </div>
-<!-- Three column layout ends / Fin de la mis en page de trois colonnes -->
+<!-- Two column layout ends / Fin de la mis en page de deux colonnes -->
 </body>
 </html>

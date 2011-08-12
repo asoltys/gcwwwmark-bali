@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<html>
+	<base>../includes-2col-leftnav-navgauche-simple-fra.html</base>
+	<head>
+		<css>
+			<base>../inc/css-simple.inc</base>
+			<pfif>../inc/css-pf-if-simple.inc</pfif>
+		</css>
+		<params/>
+	</head>
+	<body>
+		<header>../inc/header-simple-fra.inc</header>
+		<content>../inc/content-simple-fra.inc</content>
+		<leftcol>
+			<prenav/>
+			<nav>../inc/primary-nav-simple-fra.inc</nav>
+			<postnav/>
+		</leftcol>
+		<rightcol>
+			<prenav/>
+			<nav/>
+			<postnav/>
+		</rightcol>
+		<footer>../inc/footer-simple-fra.inc</footer>
+	</body>
+</html>

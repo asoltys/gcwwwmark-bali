@@ -4,14 +4,14 @@
 	<meta charset="utf-8" />
 
 	<!-- 
-	HTML5 core markup structure v1.3a2 / Support de balisage principal pour HTML5 v1.3a2
+	HTML5 core markup v1.3a2 / Support de balisage principal pour HTML5 v1.3a2
 	Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
 	Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
 	Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
 	-->
 
 	<!-- Title begins / Début du titre -->
-	<title>2 colonnes avec la navigation à gauche - Thème base - HTML5 - Boîte à outils de l'expérience Web (BOEW)</title>
+	<title>2 colonnes avec la navigation à gauche - Simple - HTML5 - Boîte à outils de l'expérience Web (BOEW)</title>
 	<!-- Title ends / Fin du titre -->
 	
 	<!-- Favicon (optional) begins / Début du favicon (optionnel) -->
@@ -31,20 +31,18 @@
 	<!-- Meta-data ends / Fin des métadonnées -->
 
 	<!-- WET scripts/CSS begin / Début des scripts/CSS de la BOEW --><!--[if IE 6]><![endif]-->
-	<link href="../css/base.css" rel="stylesheet" type="text/css" />
-	<!--[if IE 8]><link href="../css/base-ie8.css" rel="stylesheet" type="text/css" /><![endif]-->
-	<!--[if IE 7]><link href="../css/base-ie7.css" rel="stylesheet" type="text/css" /><![endif]-->
-	<!--[if lte IE 6]><link href="../css/base-ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
-	<link href="../css/util.css" rel="stylesheet" type="text/css" />
-<!-- base theme begins / Début du thème base -->
-	<link href="css/theme-base.css" rel="stylesheet" type="text/css" />
-	<!--[if lte IE 6]><link href="css/theme-base-ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
-<!-- base theme ends / Fin du thème base -->
+	<link href="css/base-simple.css" rel="stylesheet" type="text/css" />
+	<!--[if IE 8]><link href="css/base-simple-ie8.css" rel="stylesheet" type="text/css" /><![endif]-->
+	<!--[if IE 7]><link href="css/base-simple-ie7.css" rel="stylesheet" type="text/css" /><![endif]-->
+	<!--[if lte IE 6]><link href="css/base-simple-ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+	<link href="css/util.css" rel="stylesheet" type="text/css" />
+<!-- Theme begins / Début du thème -->
+<!-- Theme ends / Fin du thème -->
 	<!-- WET scripts/CSS end / Fin des scripts/CSS de la BOEW -->
 
 	<!-- Progressive enhancement begins / Début de l'amélioration progressive -->
-	<script src="../js/lib/jquery.min.js"></script>
-	<script src="../js/pe-ap.js" id="progressive"></script>
+	<script src="js/lib/jquery.min.js"></script>
+	<script src="js/pe-ap.js" id="progressive"></script>
 	<script>
 	/* <![CDATA[ */
 		var params = {
@@ -58,7 +56,9 @@
 	<!-- Custom scripts/CSS end / Fin des scripts/CSS personnalisés -->
 
 	<!-- WET print CSS begins / Début du CSS de la BOEW pour l'impression -->
-	<link href="../css/pf-if.css" rel="stylesheet" media="print" type="text/css" />
+	<link href="css/pf-if.css" rel="stylesheet" media="print" type="text/css" />
+<!-- Theme begins / Début du thème -->
+<!-- Theme ends / Fin du thème -->
 	<!-- WET print CSS ends / Fin du CSS de la BOEW pour l'impression -->
 </head>
 <body>
@@ -76,22 +76,11 @@
 	<!-- Header begins / Début de l'en-tête -->
 	<div id="cn-head"><div id="cn-head-inner">
 	<header>
-<!-- base theme begins / Début du thème base -->
+<!-- Theme begins / Début du thème -->
 		<section>
-		<h2>En-tête (base)</h2>
-
-		<h3>Valeurs implicites importantes</h3>
-		<p><strong>Nota&#160;:</strong> Les valeurs implicites sont pour le CSS base et pas pour le thème actuel.</p>
-		<dl lang="en" xml:lang="en">
-			<dt><code>cn-head</code>&#160;:</dt>
-			<dd>
-				<ul>
-					<li><code>background: #FFF</code></li>
-				</ul>
-			</dd>
-		</dl>
+		<h2>En-tête (Simple)</h2>
 		</section>
-<!-- base theme ends / Fin du thème base -->
+<!-- Theme ends / Fin du thème -->
 	</header>
 	</div></div>
 	<!-- Header ends / Fin de l'en-tête -->
@@ -101,35 +90,12 @@
 	<div id="cn-centre-col-gap"></div>
 	<div id="cn-centre-col" role="main"><div id="cn-centre-col-inner">
 		<!-- Content title begins / Début du titre du contenu -->
-		<h1 id="cn-cont">Zone de contenu principale (base)</h1>
+		<h1 id="cn-cont">Zone de contenu principale (Simple)</h1>
 		<!-- Content Title ends / Fin du titre du contenu -->
 
-<!-- base theme begins / Début du thème base -->
+<!-- Theme begins / Début du thème -->
 		<p>Contient normalement le contenu principal de la page et la date de la dernière modification.</p>
-
-		<section>
-			<h2>Valeurs implicites importantes</h2>
-			<p><strong>Nota&#160;:</strong> Les valeurs implicites sont pour le CSS base et pas pour le thème actuel.</p>
-			<dl lang="en" xml:lang="en">
-				<dt><code>cn-centre-col-inner</code>&#160;:</dt>
-				<dd>
-					<ul>
-						<li><code>margin-right: 0</code></li>
-						<li><code>margin-left: 25%</code> (must equal the <code>cn-left-col</code> width)</li>
-						<li><code>padding: 1px 5px;</code></li>
-						<li><code>background: #FFF</code></li>
-					</ul>
-				</dd>
-				<dt><code>cn-centre-col-gap</code> (l'écart entre la colonne et le pied de page)&#160;:</dt>
-				<dd>
-					<ul>
-						<li><code>margin-left: 25%</code> (must equal the <code>cn-left-col</code> width)</li>
-						<li><code>background: #FFF</code></li>
-					</ul>
-				</dd>
-			</dl>
-		</section>
-<!-- base theme ends / Fin du thème base -->
+<!-- Theme ends / Fin du thème -->
 	</div></div>
 	<!-- Main content ends / Fin du contenu principal --> 
 
@@ -139,39 +105,12 @@
 	<nav role="navigation">
 		<h2 id="cn-nav">Navigation principale (colonne gauche)</h2>
 		<div class="cn-left-col-default">
-<!-- base theme begins / Début du thème base -->
+<!-- Theme begins / Début du thème -->
 			<section>
-				<h3>Navigation principale (base)</h3>
+				<h3>Navigation principale (Simple)</h3>
 				<p>Contient normalement un champ de recherche et les liens de navigation</p>
-
-				<section>		
-					<h4>Valeurs implicites importantes</h4>
-					<p><strong>Nota&#160;:</strong> Les valeurs implicites sont pour le CSS base et pas pour le thème actuel.</p>
-					<dl lang="en" xml:lang="en">
-					<dt><code>cn-left-col</code>&#160;:</dt>
-					<dd>
-						<ul>
-							<li><code>width: 25%</code></li>
-							<li><code>margin-right: -25%</code> (<span lang="fr" xml:lang="fr">doit égaler le négatif de la largeur</span> <code>cn-left-col</code>)</li>
-						</ul>
-					</dd>
-					<dt><code>cn-left-col-inner</code>&#160;:</dt>
-					<dd>
-						<ul>
-							<li><code>background: #FFF</code></li>
-						</ul>
-					</dd>
-					<dt><code>cn-left-col-gap</code> (l'écart entre la colonne et le pied de page)&#160;:</dt>
-					<dd> 
-						<ul>
-							<li><code>width: 25%</code> (<span lang="fr" xml:lang="fr">doit égaler la largeur</span> <code>cn-left-col</code>)</li>
-							<li><code>background: #FFF</code></li>
-						</ul>
-					</dd>
-					</dl>
-				</section>
 			</section>
-<!-- base theme ends / Fin du thème base -->
+<!-- Theme ends / Fin du thème -->
 		</div>
 	</nav>
 	</div></div>
@@ -182,19 +121,9 @@
 	<div id="cn-foot"><div id="cn-foot-inner">
 	<footer>
 		<h2>Pied de page</h2>
-<!-- base theme begins / Début du thème base -->
-		<h3>Pied de page (base)</h3>
-		<h4>Valeurs implicites importantes</h4>
-		<p><strong>Nota&#160;:</strong> Les valeurs implicites sont pour le CSS base et pas pour le thème actuel.</p>
-		<dl lang="en" xml:lang="en">
-			<dt><code>cn-foot</code>&#160;:</dt>
-			<dd>
-				<ul>
-					<li><code>background: #FFF</code></li>
-				</ul>
-			</dd>
-		</dl>
-<!-- base theme ends / Fin du thème base -->
+<!-- Theme begins / Début du thème -->
+		<h3>Pied de page (Simple)</h3>
+<!-- Theme ends / Fin du thème -->
 	</footer>
 	</div></div>
 	<!-- Footer ends / Fin du pied de page -->
