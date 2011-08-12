@@ -4,14 +4,14 @@
 	<meta charset="utf-8" />
 
 	<!-- 
-	HTML5 core markup v1.3a1 / Support de balisage principal pour HTML5 v1.3a1
+	HTML5 core markup structure v1.3a1 / Support de balisage principal pour HTML5 v1.3a1
 	Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
 	Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
 	Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
 	-->
 
 	<!-- Title begins / Début du titre -->
-	<title>1 colonne - Ordinaire - HTML5 - Boîte à outils de l'expérience Web (BOEW) / 1 column layout - Vanilla - HTML5 - Web Experience Toolkit (WET)</title>
+	<title>1 colonne - Thème base - HTML5 - Boîte à outils de l'expérience Web (BOEW) / 1 column layout - Base theme - HTML5 - Web Experience Toolkit (WET)</title>
 	<!-- Title ends / Fin du titre -->
 	
 	<!-- Favicon (optional) begins / Début du favicon (optionnel) -->
@@ -38,18 +38,20 @@
 	<!-- Meta-data ends / Fin des métadonnées -->
 
 	<!-- WET scripts/CSS begin / Début des scripts/CSS de la BOEW --><!--[if IE 6]><![endif]-->
-	<link href="css/base-vanilla-ordinaire.css" rel="stylesheet" type="text/css" />
-	<!--[if IE 8]><link href="css/base-vanilla-ordinaire-ie8.css" rel="stylesheet" type="text/css" /><![endif]-->
-	<!--[if IE 7]><link href="css/base-vanilla-ordinaire-ie7.css" rel="stylesheet" type="text/css" /><![endif]-->
-	<!--[if lte IE 6]><link href="css/base-vanilla-ordinaire-ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
-	<link href="css/util.css" rel="stylesheet" type="text/css" />
-<!-- Theme begins / Début du thème -->
-<!-- Theme ends / Fin du thème -->
+	<link href="../css/base.css" rel="stylesheet" type="text/css" />
+	<!--[if IE 8]><link href="../css/base-ie8.css" rel="stylesheet" type="text/css" /><![endif]-->
+	<!--[if IE 7]><link href="../css/base-ie7.css" rel="stylesheet" type="text/css" /><![endif]-->
+	<!--[if lte IE 6]><link href="../css/base-ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+	<link href="../css/util.css" rel="stylesheet" type="text/css" />
+<!-- base theme begins / Début du thème base -->
+	<link href="css/theme-base.css" rel="stylesheet" type="text/css" />
+	<!--[if lte IE 6]><link href="css/theme-base-ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+<!-- base theme ends / Fin du thème base -->
 	<!-- WET scripts/CSS end / Fin des scripts/CSS de la BOEW -->
 
 	<!-- Progressive enhancement begins / Début de l'amélioration progressive -->
-	<script src="js/lib/jquery.min.js"></script>
-	<script src="js/pe-ap.js" id="progressive"></script>
+	<script src="../js/lib/jquery.min.js"></script>
+	<script src="../js/pe-ap.js" id="progressive"></script>
 	<script>
 	/* <![CDATA[ */
 		var params = {
@@ -63,9 +65,7 @@
 	<!-- Custom scripts/CSS end / Fin des scripts/CSS personnalisés -->
 
 	<!-- WET print CSS begins / Début du CSS de la BOEW pour l'impression -->
-	<link href="css/pf-if.css" rel="stylesheet" media="print" type="text/css" />
-<!-- Theme begins / Début du thème -->
-<!-- Theme ends / Fin du thème -->
+	<link href="../css/pf-if.css" rel="stylesheet" media="print" type="text/css" />
 	<!-- WET print CSS ends / Fin du CSS de la BOEW pour l'impression -->
 </head>
 <body>
@@ -83,11 +83,23 @@
 	<!-- Header begins / Début de l'en-tête -->
 	<div id="cn-head"><div id="cn-head-inner">
 	<header>
-<!-- Theme begins / Début du thème -->
+<!-- base theme begins / Début du thème base -->
 		<section>
-		<h2>En-tête (Ordinaire) / <span lang="en">Header (Vanilla)</span></h2>
+		<h2>En-tête (base) / <span lang="en">Header (Base)</span></h2>
+
+		<h3>Valeurs implicites importantes / <span lang="en">Important default values</span></h3>
+		<p><strong>Nota&#160;:</strong> Les valeurs implicites sont pour le CSS base et pas pour le thème actuel.</p>
+		<p lang="en"><strong>Note:</strong> Default values are for the base CSS and not the current theme.</p>
+		<dl lang="en" xml:lang="en">
+			<dt><code>cn-head</code>&#160;:</dt>
+			<dd>
+				<ul>
+					<li><code>background: #FFF</code></li>
+				</ul>
+			</dd>
+		</dl>
 		</section>
-<!-- Theme ends / Fin du thème -->
+<!-- base theme ends / Fin du thème base -->
 	</header>
 	</div></div>
 	<!-- Header ends / Fin de l'en-tête -->
@@ -96,13 +108,27 @@
 	<!-- Main content begins / Début du contenu principal --> 
 	<div id="cn-centre-col" role="main"><div id="cn-centre-col-inner">
 		<!-- Content title begins / Début du titre du contenu -->
-		<h1 id="cn-cont">Zone de contenu principale (Ordinaire) / <span lang="en">Main content area (Vanilla)</span></h1>
+		<h1 id="cn-cont">Zone de contenu principale (base) / <span lang="en">Main content area (Base)</span></h1>
 		<!-- Content Title ends / Fin du titre du contenu -->
 
-<!-- Theme begins / Début du thème -->
+<!-- base theme begins / Début du thème base -->
 		<p>Contient normalement le contenu principal de la page et la date de la dernière modification.</p>
 		<p lang="en">Normally contains the main content of the page and the date the content was last modified.</p>
-<!-- Theme ends / Fin du thème -->
+		<section>
+			<h2>Valeurs implicites importantes / <span lang="en">Important default values</span></h2>
+			<p><strong>Nota&#160;:</strong> Les valeurs implicites sont pour le CSS base et pas pour le thème actuel.</p>
+			<p lang="en"><strong>Note:</strong> Default values are for the base CSS and not the current theme.</p>
+			<dl lang="en" xml:lang="en">
+				<dt><code>cn-centre-col-inner</code>&#160;:</dt>
+				<dd>
+					<ul>
+						<li><code>padding: 1px 5px;</code></li>
+						<li><code>background: #FFF</code></li>
+					</ul>
+				</dd>
+			</dl>
+		</section>
+<!-- base theme ends / Fin du thème base -->
 	</div></div>
 	<!-- Main content ends / Fin du contenu principal --> 
 	</div>
@@ -111,9 +137,20 @@
 	<div id="cn-foot"><div id="cn-foot-inner">
 	<footer>
 		<h2 id="cn-nav">Pied de page / <span lang="en">Footer</span></h2>
-<!-- Theme begins / Début du thème -->
-		<h3>Pied de page (Ordinaire) / <span lang="en">Footer (Vanilla)</span></h3>
-<!-- Theme ends / Fin du thème -->
+<!-- base theme begins / Début du thème base -->
+		<h3>Pied de page (base) / <span lang="en">Footer (Base)</span></h3>
+		<h4>Valeurs implicites importantes / <span lang="en">Important default values</span></h4>
+		<p><strong>Nota&#160;:</strong> Les valeurs implicites sont pour le CSS base et pas pour le thème actuel.</p>
+		<p lang="en"><strong>Note:</strong> Default values are for the base CSS and not the current theme.</p>
+		<dl lang="en" xml:lang="en">
+			<dt><code>cn-foot</code>&#160;:</dt>
+			<dd>
+				<ul>
+					<li><code>background: #FFF</code></li>
+				</ul>
+			</dd>
+		</dl>
+<!-- base theme ends / Fin du thème base -->
 	</footer>
 	</div></div>
 	<!-- Footer ends / Fin du pied de page -->
