@@ -31,11 +31,11 @@
 	<!-- Meta-data ends / Fin des métadonnées -->
 
 	<!-- WET scripts/CSS begin / Début des scripts/CSS de la BOEW --><!--[if IE 6]><![endif]-->
-	<link href="../css/base-simple.css" rel="stylesheet" type="text/css" />
-	<!--[if IE 8]><link href="../css/base-simple-ie8.css" rel="stylesheet" type="text/css" /><![endif]-->
-	<!--[if IE 7]><link href="../css/base-simple-ie7.css" rel="stylesheet" type="text/css" /><![endif]-->
-	<!--[if lte IE 6]><link href="../css/base-simple-ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
-	<link href="../css/util.css" rel="stylesheet" type="text/css" />
+	<link href="../css/base-simple.css" rel="stylesheet" />
+	<!--[if IE 8]><link href="../css/base-simple-ie8.css" rel="stylesheet" /><![endif]-->
+	<!--[if IE 7]><link href="../css/base-simple-ie7.css" rel="stylesheet" /><![endif]-->
+	<!--[if lte IE 6]><link href="../css/base-simple-ie6.css" rel="stylesheet" /><![endif]-->
+	<link href="../css/util.css" rel="stylesheet" />
 <!-- include:css-base -->
 	<!-- WET scripts/CSS end / Fin des scripts/CSS de la BOEW -->
 
@@ -55,7 +55,7 @@
 	<!-- Custom scripts/CSS end / Fin des scripts/CSS personnalisés -->
 
 	<!-- WET print CSS begins / Début du CSS de la BOEW pour l'impression -->
-	<link href="../css/pf-if.css" rel="stylesheet" media="print" type="text/css" />
+	<link href="../css/pf-if.css" rel="stylesheet" media="print" />
 <!-- include:css-pfif -->
 	<!-- WET print CSS ends / Fin du CSS de la BOEW pour l'impression -->
 </head>
@@ -79,17 +79,19 @@
 	</div></div>
 	<!-- Header ends / Fin de l'en-tête -->
 
-	<div id="cn-cols">
-	<!-- Main content begins / Début du contenu principal --> 
-	<div id="cn-centre-col" role="main"><div id="cn-centre-col-inner">
-		<!-- Content title begins / Début du titre du contenu -->
-		<h1 id="cn-cont">Zone de contenu principale (Simple)</h1>
-		<!-- Content Title ends / Fin du titre du contenu -->
+	<!-- Columns begin / Début des colonnes -->
+	<div id="cn-cols"><div id="cn-cols-inner">
+		<!-- Main content begins / Début du contenu principal --> 
+		<div id="cn-centre-col" role="main"><div id="cn-centre-col-inner">
+			<!-- Content title begins / Début du titre du contenu -->
+			<h1 id="cn-cont">Zone de contenu principale (Simple)</h1>
+			<!-- Content Title ends / Fin du titre du contenu -->
 
 <!-- include:content -->
+		</div></div>
+		<!-- Main content ends / Fin du contenu principal -->
 	</div></div>
-	<!-- Main content ends / Fin du contenu principal --> 
-	</div>
+	<!-- Columns end / Fin des colonnes -->
 
 	<!-- Footer begins / Début du pied de page --> 
 	<div id="cn-foot"><div id="cn-foot-inner">
