@@ -4,7 +4,6 @@
 	<head>
 		<css>
 			<base>../inc/css-theme-base.inc</base>
-			<pfif>../inc/css-pf-if-theme-base.inc</pfif>
 		</css>
 		<params />
 	</head>

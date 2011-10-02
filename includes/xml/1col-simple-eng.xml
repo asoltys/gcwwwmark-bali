@@ -4,7 +4,6 @@
 	<head>
 		<css>
 			<base>../inc/css-simple.inc</base>
-			<pfif>../inc/css-pf-if-simple.inc</pfif>
 		</css>
 		<params/>
 	</head>
