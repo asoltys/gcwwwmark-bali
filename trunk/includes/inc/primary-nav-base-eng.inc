@@ -1,6 +1,6 @@
 ﻿<!-- Theme begins / Début du thème -->
 				<section>
-					<h3>Primary navigation (Base)</h3>
-					<p>Normally contains a search field and navigation links</p>
+					<h3>Side navigation (Base)</h3>
+					<p>Normally contains navigation links</p>
 				</section>
 <!-- Theme ends / Fin du thème -->
